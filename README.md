@@ -35,8 +35,7 @@ Usage
 
 - Download Indian Pines, University of Pavia and Houston datasets using the link provided in [SpectralFormer](https://github.com/danfenghong/IEEE_TGRS_SpectralFormer)
 - Download Wuhan datasets with .mat file format from [here](http://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm). (download the split with 100 samples per class)
-
-<b>Download our pre-trained and fine-tuned checkpoints from the links provided in the following table.
+- Download our pre-trained and fine-tuned checkpoints from the links provided in the following table.
 
 <table>
 <thead>
