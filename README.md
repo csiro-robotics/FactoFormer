@@ -10,7 +10,8 @@ Hyperspectral images (HSIs) contain rich spectral and spatial information. Motiv
 ![alt text](docs/FactoFormer.png)
 
 ## News
-- [2023-12] Fine-tuning and testing code with pre-trained models is released.
+- Pre-training code will be released in January 2024.
+- [2023-12] Fine-tuning and testing code released with pre-trained models.
 
 Usage
 ---------------------
