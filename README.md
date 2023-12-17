@@ -137,12 +137,16 @@ Replace `<path_to_out_dir>` with the relevant path to the pre-trained checkpoint
 ## How to cite our paper
 Please use the following bibtex reference to cite our paper.
 ```bibtex
-@article{mohamed2023factoformer,
-  title={FactoFormer: Factorized Hyperspectral Transformers with Self-Supervised Pre-Training},
+@ARTICLE{10360846,
   author={Mohamed, Shaheer and Haghighat, Maryam and Fernando, Tharindu and Sridharan, Sridha and Fookes, Clinton and Moghadam, Peyman},
-  journal={arXiv preprint arXiv:2309.09431},
-  year={2023}
-}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={FactoFormer: Factorized Hyperspectral Transformers with Self-Supervised Pre-Training}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TGRS.2023.3343392}}
+
 ```
 
 ## Acknowledgement
