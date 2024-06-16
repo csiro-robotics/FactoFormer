@@ -1,6 +1,6 @@
 # FactoFormer: Factorized Hyperspectral Transformers with Self-Supervised Pretraining
 
-The official repository of the paper [FactoFormer: Factorized Hyperspectral Transformers with Self-Supervised Pretraining](https://ieeexplore.ieee.org/document/10360846) Accepted to IEEE Transactions on Geoscience and Remote Sensing, December 2023.
+The official repository of the paper [FactoFormer: Factorized Hyperspectral Transformers with Self-Supervised Pretraining](https://ieeexplore.ieee.org/document/10360846) Published at IEEE Transactions on Geoscience and Remote Sensing, vol. 62, pp. 1-14, 2024, Art no. 5501614, doi: 10.1109/TGRS.2023.3343392.
 
 [//]: # (We introduce a novel factorized transformer architecture called _FactoFormer_ with self-supervised pretraining for hyperspectral data. This network architecture enables factorized self-attention and factorized self-supervised pretraining focusing on learning salient representations in both spectral and spatial dimensions.)
 
