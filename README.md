@@ -10,7 +10,7 @@ Hyperspectral images (HSIs) contain rich spectral and spatial information. Motiv
 ![alt text](docs/FactoFormer.png)
 
 ## News
-- Pretraining code will be released in January 2024.
+- [2024-06] Pretraining code released
 - [2023-12] Finetuning and testing code released with pretrained models.
 
 Usage
@@ -133,6 +133,20 @@ For finetuning FactoFormer using the pretrained models:
     ```
 
 Replace `<path_to_out_dir>` with the relevant path to the pretrained checkpoints and replace `<path_to_out_dir>` with the path to intended output directory
+
+Pretraining
+---------------------
+For pretraining spatial and spectral transformers, navigate to the `pretraining` folder.
+- eg. Pretraining the spatial transformer with Indian Pines dataset.
+  ```bash
+  python main_pretrain.py --dataset='Indian' --pretrain_mode='spatial'  --output_dir='<path_to_save_spatial_model>
+  ```
+To pretrain the spectral transformer, replace `pretrain_mode` to `spectral` and change the `output_dir` to avoid overwriting.
+- eg. Pretraining the spectral transformer with Indian Pines dataset.
+    ```bash
+    python main_pretrain.py --dataset='Indian' --pretrain_mode='spectral'  --output_dir='<path_to_save_spectral_model>
+  ```
+By replacing the `dataset` in the above example, you can pretrain the models with other datasets.
 
 ## How to cite our paper
 Please use the following bibtex reference to cite our paper.
